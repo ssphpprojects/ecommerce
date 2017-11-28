@@ -1,0 +1,85 @@
+/* =========== Font Add Start ========== */
+@font-face{
+	src:url('../fonts/Roboto/Roboto-Regular.ttf');
+	font-family:roboR;
+}
+@font-face{
+	src:url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+	font-family:openR;
+}
+@font-face{
+	src:url('../fonts/Open_Sans/OpenSans-Semibold.ttf');
+	font-family:openSB;
+}
+@font-face{
+	src:url('../fonts/Lato/Lato-Regular.ttf');
+	font-family:latoR;
+}
+/* =========== Common Start ========== */
+ul,ol{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:openR;
+}
+a:hover{
+	outline:none;
+	text-decoration:none;
+}
+.margin-top10{
+	margin-top:10px;
+}
+.margin-top20{
+	margin-top:20px;
+}
+.margin-top30{
+	margin-top:30px;
+}
+.margin-top40{
+	margin-top:40px;
+}
+table tr th{
+	font-weight:normal;
+	font-family:openSB;
+}
+/* =========== Common End ========== */
+/* =========== Header Start ========== */
+.top-menu li{
+	display:inline-block;
+}
+
+.top-menu li a{
+	padding:7px 8px;
+	display:block;
+}
+.req-icon{
+	color:red;
+	font-size:10px;
+}
+/* =========== Header End ========== */
+
+/* =========== Content Start ========== */
+.content-wrapper p{
+	text-align:justify;
+}
+/* =========== Content End ========== */
+
+/* =========== Footer Start ========== */
+#fullFooter{
+	border-top:4px solid #000;
+	background:#333;
+	padding:10px;
+}
+#fullFooter h4{
+	color:#fff;
+	font-size:20px;
+	border-bottom:1px solid #fff;
+	display:inline-block;
+	padding-bottom:3px;
+}
+#fullFooter ul li a{
+	color:#fff;
+	color:#aaa;
+}
+/* =========== Footer End ========== */
